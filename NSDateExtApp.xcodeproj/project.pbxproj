@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBADB8A6175EEDBE00A1B110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBADB8A5175EEDBE00A1B110 /* UIKit.framework */; };
+		FBADB8A8175EEDBE00A1B110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBADB8A7175EEDBE00A1B110 /* Foundation.framework */; };
+		FBADB8AA175EEDBE00A1B110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBADB8A9175EEDBE00A1B110 /* CoreGraphics.framework */; };
+		FBADB8B0175EEDBE00A1B110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBADB8AE175EEDBE00A1B110 /* InfoPlist.strings */; };
+		FBADB8B2175EEDBE00A1B110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADB8B1175EEDBE00A1B110 /* main.m */; };
+		FBADB8B6175EEDBE00A1B110 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADB8B5175EEDBE00A1B110 /* MMAppDelegate.m */; };
+		FBADB8B8175EEDBE00A1B110 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADB8B7175EEDBE00A1B110 /* Default.png */; };
+		FBADB8BA175EEDBE00A1B110 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADB8B9175EEDBE00A1B110 /* Default@2x.png */; };
+		FBADB8BC175EEDBE00A1B110 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADB8BB175EEDBE00A1B110 /* Default-568h@2x.png */; };
+		FBADB8BF175EEDBE00A1B110 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADB8BE175EEDBE00A1B110 /* MMViewController.m */; };
+		FBADB8C2175EEDBE00A1B110 /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBADB8C0175EEDBE00A1B110 /* MMViewController.xib */; };
+		FBADB8CA175EEE3E00A1B110 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FBADB8C9175EEE3E00A1B110 /* NSDate-Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBADB8A2175EEDBE00A1B110 /* NSDateExtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateExtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADB8A5175EEDBE00A1B110 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBADB8A7175EEDBE00A1B110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBADB8A9175EEDBE00A1B110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBADB8AD175EEDBE00A1B110 /* NSDateExtApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateExtApp-Info.plist"; sourceTree = "<group>"; };
+		FBADB8AF175EEDBE00A1B110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBADB8B1175EEDBE00A1B110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBADB8B3175EEDBE00A1B110 /* NSDateExtApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateExtApp-Prefix.pch"; sourceTree = "<group>"; };
+		FBADB8B4175EEDBE00A1B110 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		FBADB8B5175EEDBE00A1B110 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		FBADB8B7175EEDBE00A1B110 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBADB8B9175EEDBE00A1B110 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBADB8BB175EEDBE00A1B110 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBADB8BD175EEDBE00A1B110 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		FBADB8BE175EEDBE00A1B110 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		FBADB8C1175EEDBE00A1B110 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		FBADB8C8175EEE3E00A1B110 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		FBADB8C9175EEE3E00A1B110 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBADB89F175EEDBE00A1B110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADB8A6175EEDBE00A1B110 /* UIKit.framework in Frameworks */,
+				FBADB8A8175EEDBE00A1B110 /* Foundation.framework in Frameworks */,
+				FBADB8AA175EEDBE00A1B110 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBADB899175EEDBE00A1B110 = {
+			isa = PBXGroup;
+			children = (
+				FBADB8C8175EEE3E00A1B110 /* NSDate-Utilities.h */,
+				FBADB8C9175EEE3E00A1B110 /* NSDate-Utilities.m */,
+				FBADB8AB175EEDBE00A1B110 /* NSDateExtApp */,
+				FBADB8A4175EEDBE00A1B110 /* Frameworks */,
+				FBADB8A3175EEDBE00A1B110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBADB8A3175EEDBE00A1B110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBADB8A2175EEDBE00A1B110 /* NSDateExtApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBADB8A4175EEDBE00A1B110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBADB8A5175EEDBE00A1B110 /* UIKit.framework */,
+				FBADB8A7175EEDBE00A1B110 /* Foundation.framework */,
+				FBADB8A9175EEDBE00A1B110 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBADB8AB175EEDBE00A1B110 /* NSDateExtApp */ = {
+			isa = PBXGroup;
+			children = (
+				FBADB8B4175EEDBE00A1B110 /* MMAppDelegate.h */,
+				FBADB8B5175EEDBE00A1B110 /* MMAppDelegate.m */,
+				FBADB8BD175EEDBE00A1B110 /* MMViewController.h */,
+				FBADB8BE175EEDBE00A1B110 /* MMViewController.m */,
+				FBADB8C0175EEDBE00A1B110 /* MMViewController.xib */,
+				FBADB8AC175EEDBE00A1B110 /* Supporting Files */,
+			);
+			path = NSDateExtApp;
+			sourceTree = "<group>";
+		};
+		FBADB8AC175EEDBE00A1B110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBADB8AD175EEDBE00A1B110 /* NSDateExtApp-Info.plist */,
+				FBADB8AE175EEDBE00A1B110 /* InfoPlist.strings */,
+				FBADB8B1175EEDBE00A1B110 /* main.m */,
+				FBADB8B3175EEDBE00A1B110 /* NSDateExtApp-Prefix.pch */,
+				FBADB8B7175EEDBE00A1B110 /* Default.png */,
+				FBADB8B9175EEDBE00A1B110 /* Default@2x.png */,
+				FBADB8BB175EEDBE00A1B110 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBADB8A1175EEDBE00A1B110 /* NSDateExtApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADB8C5175EEDBE00A1B110 /* Build configuration list for PBXNativeTarget "NSDateExtApp" */;
+			buildPhases = (
+				FBADB89E175EEDBE00A1B110 /* Sources */,
+				FBADB89F175EEDBE00A1B110 /* Frameworks */,
+				FBADB8A0175EEDBE00A1B110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDateExtApp;
+			productName = NSDateExtApp;
+			productReference = FBADB8A2175EEDBE00A1B110 /* NSDateExtApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBADB89A175EEDBE00A1B110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CSpark;
+			};
+			buildConfigurationList = FBADB89D175EEDBE00A1B110 /* Build configuration list for PBXProject "NSDateExtApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBADB899175EEDBE00A1B110;
+			productRefGroup = FBADB8A3175EEDBE00A1B110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBADB8A1175EEDBE00A1B110 /* NSDateExtApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBADB8A0175EEDBE00A1B110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADB8B0175EEDBE00A1B110 /* InfoPlist.strings in Resources */,
+				FBADB8B8175EEDBE00A1B110 /* Default.png in Resources */,
+				FBADB8BA175EEDBE00A1B110 /* Default@2x.png in Resources */,
+				FBADB8BC175EEDBE00A1B110 /* Default-568h@2x.png in Resources */,
+				FBADB8C2175EEDBE00A1B110 /* MMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBADB89E175EEDBE00A1B110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADB8B2175EEDBE00A1B110 /* main.m in Sources */,
+				FBADB8B6175EEDBE00A1B110 /* MMAppDelegate.m in Sources */,
+				FBADB8BF175EEDBE00A1B110 /* MMViewController.m in Sources */,
+				FBADB8CA175EEE3E00A1B110 /* NSDate-Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBADB8AE175EEDBE00A1B110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBADB8AF175EEDBE00A1B110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBADB8C0175EEDBE00A1B110 /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBADB8C1175EEDBE00A1B110 /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBADB8C3175EEDBE00A1B110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBADB8C4175EEDBE00A1B110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBADB8C6175EEDBE00A1B110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateExtApp/NSDateExtApp-Prefix.pch";
+				INFOPLIST_FILE = "NSDateExtApp/NSDateExtApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBADB8C7175EEDBE00A1B110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateExtApp/NSDateExtApp-Prefix.pch";
+				INFOPLIST_FILE = "NSDateExtApp/NSDateExtApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBADB89D175EEDBE00A1B110 /* Build configuration list for PBXProject "NSDateExtApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADB8C3175EEDBE00A1B110 /* Debug */,
+				FBADB8C4175EEDBE00A1B110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBADB8C5175EEDBE00A1B110 /* Build configuration list for PBXNativeTarget "NSDateExtApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADB8C6175EEDBE00A1B110 /* Debug */,
+				FBADB8C7175EEDBE00A1B110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBADB89A175EEDBE00A1B110 /* Project object */;
+}
